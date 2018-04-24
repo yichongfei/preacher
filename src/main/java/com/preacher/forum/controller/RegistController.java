@@ -15,7 +15,6 @@ public class RegistController {
 	@RequestMapping("/RegisterAccount")
 	public void registerAccount(HttpServletRequest request,HttpServletResponse response) {
 		Map<String, String[]> parameterMap = request.getParameterMap();
-		System.out.println(123);
 	}
 	
 	
